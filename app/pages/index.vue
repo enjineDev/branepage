@@ -93,7 +93,7 @@ definePageMeta({
         </div>
 
         <div class="flex flex-col items-center justify-center my-8">
-            <h2>Subscribes, so you wont miss any Updates!</h2>
+            <h2>Subscribe, so you wont miss any Updates!</h2>
             <div class="flex pt-4">
               <input class="input bg-gray-900 placeholder:text-white" placeholder="E-Mail" type="email" v-model="email" @keyup.enter="submitSubscription(email)">
               <button class="btn btn-warning text-white" @click="submitSubscription(email)">Subscribe</button>
